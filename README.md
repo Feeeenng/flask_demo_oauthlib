@@ -3,4 +3,7 @@
 
 包括 QQ，新浪，微信 等
 
-现在只有新浪
+
+所用到的包:
+python-weixin
+flask-oauthlib
