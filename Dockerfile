@@ -1,9 +1,8 @@
-FROM ubuntu:16.04
+FROM python:2.7
 
 
 RUN mkdir -p /app
 COPY . /app
-RUN apt-get -y install python-pip
 RUN pip install python-weixin
 RUN pip install flask_oauthlib
 
