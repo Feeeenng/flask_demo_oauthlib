@@ -7,3 +7,12 @@
 所用到的包:
 python-weixin
 flask-oauthlib
+
+
+构建docker
+
+docker built -t test_oauth .
+
+运行一个docker
+
+docker run -p 80:80 -d -it test_oauth 
